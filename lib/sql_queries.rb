@@ -11,7 +11,7 @@ def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
 end
 
 def selects_oldest_bear_and_returns_name_and_age
-  "SELECT MAX(age) FROM bears GROUP BY name.bears"
+  "SELECT MAX(age) GROUP BY name FROM bears"
 end
 
 def select_youngest_bear_and_returns_name_and_age
