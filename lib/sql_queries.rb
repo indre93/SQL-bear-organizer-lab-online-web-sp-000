@@ -20,7 +20,7 @@ end
 
 # selects the most prominent color and returns it with its count ["dark brown", 3]
 def selects_most_prominent_color_and_returns_with_count
-  "SELECT color, MAX(color) FROM bears"
+  "SELECT color, MAX(color) AS FROM bears"
 end
 
 def counts_number_of_bears_with_goofy_temperaments
